@@ -12,12 +12,10 @@ body {
     background: linear-gradient(90deg, #1044f1 50%, #f8f40b 50%);
     overflow: hidden;
 }
-
 .topnav li {
     list-style: none;
     float: left;
 }
-
 .topnav a {
     margin: 10px auto;
     float: left;
@@ -29,17 +27,14 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-
 .topnav .icon {
     display: none;
 }
-
 .dropdown {
     margin: 10px auto;
     float: left;
     
 }
-
 .dropdown .dropbtn {
     font-weight: bold;
     color: #f2f2f2;
@@ -51,7 +46,6 @@ body {
     font-family: inherit;
     margin: 0;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -59,7 +53,6 @@ body {
     min-width: 160px;
     z-index: 1;
 }
-
 .dropdown-content a {
     float: none;
     color: #000000;
@@ -68,19 +61,15 @@ body {
     display: block;
     text-align: left;
 }
-
 .use:hover, .dropdown:hover .dropbtn {
     color: #000000;
 }
-
 .dropdown-content a:hover {
     background-color: #bdbdbd;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 @media screen and (max-width: 800px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
         display: none;
@@ -90,7 +79,6 @@ body {
         display: block;
     }
 }
-
 @media screen and (max-width: 800px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
@@ -111,7 +99,6 @@ body {
         text-align: left;
     }
 }
-
 .logo {
     margin-top: 5px;
     margin-left: 50px;
@@ -121,11 +108,24 @@ body {
 
 /* homme page image slide */
 .slideshow-container {
-    object-fit: cover;
+    /* width: 45%;
+    margin-top: 10px;
+    margin-left: 2%;
+    position: relative; */
     padding-top: 1%;
-    width: 50%;
-    margin-left: 10%;
+    width: 65%;
     position: relative;
+    margin: auto;
+}
+@media screen and (max-width: 800px){
+    .slideshow-container {
+        object-fit: cover;
+        padding-top: 1%;
+        width: 90%;
+        position: relative;
+        margin-left: 5%;
+        
+    }
 }
 .prev, .next {
     cursor: pointer;
@@ -183,7 +183,6 @@ body {
     margin-bottom: 3%;
     font-size: 20px;
 }
-
 
 /* contact page */
 .contact_list {
