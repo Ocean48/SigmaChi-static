@@ -1,14 +1,14 @@
 body {
     margin: 0;
     background: #fcfcfc;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Segoe UI Symbol";
     font-weight: 300;
 }
 
 /* header */
 .topnav {
     /*background-color: #2066e9;*/
-    background: linear-gradient(90deg, #2574fe 50%, #fffc3b 50%);
+    background: linear-gradient(90deg, #255bfe 50%, #fffc3b 50%);
     overflow: hidden;
 }
 .topnav li {
@@ -167,7 +167,6 @@ body {
 .about_social_link:link {
     font-weight: bold;
     color: #1eabe2;
-    text-decoration: none;
 }
 .about_social_link:visited{
     color: #0560e9;
@@ -176,24 +175,46 @@ body {
     color: #ece913;
 }
 .paragraph {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
-    margin-bottom: 3%;
+    margin: 5% 2%;
     font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+    .paragraph {
+        margin: 5% 2%;
+        font-size: 20px;
+    }
 }
 
 /* contact page */
 .contact_list {
     margin: auto;
     width: 50%;
+    font-size: 22px;
 }
 .contact_list li {
     height: 54px; 
     padding-left: 40px;
     list-style: none;
-    font-size: 22px;
 }
+.map {
+    margin-left: 20%; 
+    border: 0;
+    width: 60%;
+    height: 450px;
+}
+@media screen and (max-width: 800px) {
+    .contact_list {
+        margin: 0 0;
+        width: 50%;
+        font-size: 21px;
+    }
+    .map {
+        margin: 5% 5%;
+        width: 90%;
+        height: 450px;
+    }
+}
+
 
 /* people page, card */
 .flip-card {
@@ -264,6 +285,11 @@ body {
     list-style-type: none; 
     font-size: larger; 
 }
+@media screen and (max-width: 800px){
+    .contact_us,.follow_us,.footer_logo {
+        display: none;
+    }
+}
 .follow_us li {
     height: 30px; 
 }
@@ -286,4 +312,25 @@ body {
     text-align: center;
     font-size: small;
     padding-bottom: 0.25%;
+}
+
+/* Others */
+.normal_link {
+    text-decoration: none;
+}
+.footer_title {
+    color: #e9e9e9;
+    font-size: x-large;
+    font-weight: bold;
+}
+.page_title_container {
+    margin-top: 0.1%;
+    text-align: center;
+    background-color: #0f2c81;
+    padding: 0.1vw 0;
+}
+.page_title_text {
+    padding: auto;
+    color: #eebf18;
+    font-size: 30px;
 }
