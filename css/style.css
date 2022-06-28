@@ -11,9 +11,9 @@ body {
     background: linear-gradient(90deg, #255bfe 50%, #fffc3b 50%);
     overflow: hidden;
 }
-.topnav li {
-    list-style: none;
+.topnav img {
     float: left;
+    margin-right: 20px;
 }
 .topnav a {
     margin: 10px auto;
@@ -74,6 +74,7 @@ body {
         display: none;
     }
     .topnav a.icon {
+        color: #1f1e1e;
         float: right;
         display: block;
     }
@@ -100,7 +101,7 @@ body {
 }
 .logo {
     margin-top: 5px;
-    margin-left: 50px;
+    margin-left: 40px;
     height: 60px;
 }
 
