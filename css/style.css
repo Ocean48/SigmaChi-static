@@ -311,6 +311,9 @@ body {
     padding-top: 2%;
     padding-right: 15%;
 }
+.footer_logo img {
+    height: 80px;
+}
 .copyright {
     position: relative;
     color:#ffffff;
