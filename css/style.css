@@ -23,7 +23,8 @@ body {
     display: block;
     color: #17002a;
     text-align: center;
-    padding: 14px 20px;
+    /* padding: 14px 20px; */
+    padding: 14px 2%;
     text-decoration: none;
     font-weight: bold;
 }
@@ -34,6 +35,45 @@ body {
     text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
     margin-top: 80px;
     font-size: 35px;
+}
+@media screen and (max-width: 1250px) {
+    .topnav .htext {
+        font-size: 34px;
+    }
+    .topnav a {
+        padding: 14px 2%;
+    }
+}
+@media screen and (max-width: 1212px) {
+    .topnav .htext {
+        font-size: 33px;
+    }
+    .topnav a {
+        padding: 14px 1.5%;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .topnav .htext {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 1052px) {
+    .topnav .htext {
+        font-size: 31px;
+    }
+    .topnav a {
+        padding: 14px 1%;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .topnav .htext {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .topnav .htext {
+        font-size: 28px;
+    }
 }
 /* .dropdown {
     margin: 10px auto;
@@ -75,7 +115,7 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 } */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 910px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
         display: none;
     }
@@ -131,7 +171,7 @@ body {
     position: relative;
     margin: auto;
 }
-@media screen and (max-width: 950px){
+@media screen and (max-width: 910px){
     .slideshow-container {
         object-fit: cover;
         padding-top: 1%;
@@ -194,7 +234,7 @@ body {
     margin: 5% 15%;
     font-size: 20px;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 910px) {
     .paragraph {
         margin: 5% 2%;
         font-size: 20px;
@@ -219,7 +259,7 @@ body {
     width: 60%;
     height: 550px;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 910px) {
     .contact_list {
         margin: 0 0;
         width: 70%;
@@ -306,7 +346,7 @@ body {
     list-style-type: none; 
     font-size: larger; 
 }
-@media screen and (max-width: 950px){
+@media screen and (max-width: 910px){
     .contact_us,.follow_us,.footer_logo {
         display: none;
     }
@@ -358,7 +398,7 @@ body {
     color: #f6c71c;
     font-size: 30px;
 }
-@media screen and (max-width: 950px){
+@media screen and (max-width: 910px){
     .page_title_text {
         font-size: 22px;
     }
