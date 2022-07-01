@@ -8,7 +8,7 @@ body {
 /* header */
 .topnav {
     /*background-color: #2066e9;*/
-    background: linear-gradient(45deg, #255bfe 50%, #fffc3b 50%);
+    background: linear-gradient(45deg, #255bfe 50%, #fff82a 50%);
     overflow: hidden;
 }
 .topnav .logo {
@@ -21,7 +21,7 @@ body {
     margin: 10px auto;
     float: left;
     display: block;
-    color: #22013d;
+    color: #17002a;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -31,8 +31,9 @@ body {
     display: none;
 }
 .topnav .htext {
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
     margin-top: 80px;
-    font-size: 30px;
+    font-size: 35px;
 }
 /* .dropdown {
     margin: 10px auto;
@@ -74,20 +75,22 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 } */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
         display: none;
     }
     .topnav a.icon {
-        color: #1f1e1e;
+        color: #161616;
         float: right;
         display: block;
     }
     .topnav .htext {
+        margin-left: 10px;
         margin-top: 0;
+        font-size: 25px;
     }
     .topnav .htext2 {
-        margin-top: 160px;
+        margin-top: 170px;
     }
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
@@ -100,8 +103,15 @@ body {
         display: block;
         text-align: left;
     }
-    .topnav.responsive .dropdown {float: none;}
-    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav a {
+        padding: 10px 20px;
+    }
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
     .topnav.responsive .dropdown .dropbtn {
         display: block;
         width: 100%;
@@ -121,7 +131,7 @@ body {
     position: relative;
     margin: auto;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 950px){
     .slideshow-container {
         object-fit: cover;
         padding-top: 1%;
@@ -168,6 +178,7 @@ body {
     to {opacity: 1}
 }
 
+
 /* about us page */
 .about_social_link:link {
     font-weight: bold;
@@ -183,18 +194,19 @@ body {
     margin: 5% 15%;
     font-size: 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
     .paragraph {
         margin: 5% 2%;
         font-size: 20px;
     }
 }
 
+
 /* contact page */
 .contact_list {
     margin: auto;
     width: 50%;
-    font-size: 22px;
+    font-size: 26px;
 }
 .contact_list li {
     height: 54px; 
@@ -205,18 +217,22 @@ body {
     margin-left: 20%; 
     border: 0;
     width: 60%;
-    height: 450px;
+    height: 550px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
     .contact_list {
         margin: 0 0;
-        width: 50%;
-        font-size: 21px;
+        width: 70%;
+        font-size: 22px;
     }
     .map {
         margin: 5% 5%;
+        margin-top: 60px;
         width: 90%;
         height: 450px;
+    }
+    .contact_list li {
+        margin-bottom: 10px;
     }
 }
 
@@ -290,7 +306,7 @@ body {
     list-style-type: none; 
     font-size: larger; 
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 950px){
     .contact_us,.follow_us,.footer_logo {
         display: none;
     }
@@ -332,13 +348,18 @@ body {
     font-weight: bold;
 }
 .page_title_container {
-    margin-top: 0.1%;
+    margin: 0.5%;
     text-align: center;
-    background-color: #0f2c81;
+    background-color: #113191;
     padding: 0.1vw 0;
 }
 .page_title_text {
     padding: auto;
-    color: #eebf18;
+    color: #f6c71c;
     font-size: 30px;
+}
+@media screen and (max-width: 950px){
+    .page_title_text {
+        font-size: 22px;
+    }
 }
