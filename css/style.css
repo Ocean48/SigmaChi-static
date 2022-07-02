@@ -427,3 +427,6 @@ body {
         font-size: 23px;
     }
 }
+.bold_text {
+    font-weight: bold;
+}
