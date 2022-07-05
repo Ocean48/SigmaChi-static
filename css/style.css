@@ -320,6 +320,21 @@ body {
         margin-bottom: 50px;
     }
 }
+@media screen and (max-width: 1080px) {
+    .flip_card_container {
+        width: 100%;
+        margin: 0 5.5%;
+    }
+    .flip_card {
+        margin: 0 2%;
+        float: left;
+        background-color: transparent;
+        width: 200px;
+        height: 200px;
+        perspective: 1000px;
+        margin-bottom: 50px;
+    }
+}
 @media screen and (max-width: 420px) {
     .flip_card_container {
         width: 100%;
