@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    background: #fcfcfc;
+    background: #fefefe;
     font-family: "Segoe UI Symbol", sans-serif;
-    font-weight: 300;
+    color: #222222;
 }
 
 /* header */
@@ -231,10 +231,12 @@ body {
     color: #ece913;
 }
 .paragraph_mini_title {
+    color: #000000;
     margin-bottom: -15px;
+    font-size: 40px;
 }
 .paragraph {
-    margin: 5% 15%;
+    margin: 4% 15%;
     font-size: 23px;
 }
 @media screen and (max-width: 1400px) {
@@ -490,4 +492,47 @@ body {
 }
 .bold_text {
     font-weight: bold;
+    color: #000000;
+}
+
+/* FAQ in recuitment page */
+.slideshow-container2 {
+    padding-top: 1%;
+    width: 85%;
+    position: relative;
+    margin: auto;
+}
+.faq_card {
+    text-align: center;
+    background-color: #d8d8d8;
+    border-radius: 10px;
+}
+.faq_card_inner {
+    margin: auto;
+    width: 70%;
+}
+.faq_card_title {
+    color: #000000;
+    font-size: 28px;
+}
+.prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -3.5%;
+    color: #000000;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev2:hover, .next2:hover {
+    opacity: 0.5;
 }
