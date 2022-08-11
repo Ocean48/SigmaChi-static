@@ -293,71 +293,79 @@ body {
 
 /* people page, card */
 .flip_card_container {
-    width: 100%;
-    margin: 0 7%;
+    margin: auto;
+    width: 90%;
 }
 .flip_card {
-    margin: 0 2%;
+    /* width: 21%;
+    height: 28.5vw;
+    margin: 10px 2%; */
+    margin: 0 1%;
     float: left;
     background-color: transparent;
-    width: 200px;
-    height: 200px;
-    perspective: 1000px;
+    width: 18%;
+    height: 16vw;
     margin-bottom: 50px;
 }
-@media screen and (max-width: 1125px) {
-    .flip_card_container {
-        width: 100%;
-        margin: 0 7%;
-    }
+@media screen and (max-width: 1300px) {
     .flip_card {
         margin: 0 2%;
-        float: left;
-        background-color: transparent;
-        width: 200px;
-        height: 200px;
-        perspective: 1000px;
-        margin-bottom: 50px;
+        width: 20%;
+        height: 18vw;
+        margin-bottom: 40px;
     }
 }
-@media screen and (max-width: 1080px) {
-    .flip_card_container {
-        width: 100%;
-        margin: 0 5.5%;
-    }
+@media screen and (max-width: 1150px) {
     .flip_card {
-        margin: 0 2%;
-        float: left;
-        background-color: transparent;
-        width: 200px;
-        height: 200px;
-        perspective: 1000px;
-        margin-bottom: 50px;
+        margin: 0 3.9%;
+        width: 25.5%;
+        height: 23vw;
+        margin-bottom: 30px;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 800px) {
     .flip_card_container {
-        width: 100%;
-        margin: 0 23.5%;
+        margin: auto;
+        width: 80%;
     }
     .flip_card {
-        margin: 0 2%;
-        float: left;
-        background-color: transparent;
-        width: 200px;
-        height: 200px;
-        perspective: 1000px;
-        margin-bottom: 50px;
+        margin: 0 6%;
+        width: 38%;
+        height: 30vw;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .flip_card_container {
+        margin: auto;
+        width: 80%;
+    }
+    .flip_card {
+        margin: 0 3.6%;
+        width: 42%;
+        height: 34vw;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .flip_card_container {
+        margin: auto;
+        width: 80%;
+    }
+    .flip_card {
+        margin: 0 17%;
+        width: 65%;
+        height: 50vw;
+        margin-bottom: 30px;
     }
 }
 .flip_card_img {
     object-fit:cover; 
-    height: 100%; 
     width: 100%;
+    height: 100%;
 }
 .flip_card_inner {
     position: relative;
-    width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
