@@ -304,14 +304,14 @@ body {
     float: left;
     background-color: transparent;
     width: 18%;
-    height: 16vw;
+    height: 17vw;
     margin-bottom: 50px;
 }
 @media screen and (max-width: 1300px) {
     .flip_card {
         margin: 0 2%;
         width: 20%;
-        height: 18vw;
+        height: 19vw;
         margin-bottom: 40px;
     }
 }
@@ -355,7 +355,7 @@ body {
     .flip_card {
         margin: 0 17%;
         width: 65%;
-        height: 50vw;
+        height: 52vw;
         margin-bottom: 30px;
     }
 }
