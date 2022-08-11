@@ -395,15 +395,8 @@ body {
 }
 
 /* footer */
-/* .container {
-    text-align: center;
-    padding-top: 2px;
-    padding-left: 16px;
-    padding-right: 16px;
-} */
 .container_footer{
-    clear: both;
-    position: relative;
+    position: absolute;
     width: 100%;
     background-color: #444755;
     color:#ffffff;
@@ -457,7 +450,8 @@ body {
     color:#ffffff;
     text-align: center;
     font-size: small;
-    padding-bottom: 0.25%;
+    bottom: 0;
+    margin-bottom: 2px;
 }
 
 /* Others */
