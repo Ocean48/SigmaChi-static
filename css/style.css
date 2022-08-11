@@ -350,7 +350,7 @@ body {
     margin: 5px 2px;
     border-radius: 100px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 909px) {
     .fa {
         padding-left: 6px;
         padding-top: 6px;
