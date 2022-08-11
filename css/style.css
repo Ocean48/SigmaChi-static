@@ -544,7 +544,7 @@ body {
     font-size: larger;
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 10000px) {
 
     .contact_us,
     .follow_us,
