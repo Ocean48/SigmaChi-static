@@ -476,17 +476,17 @@ body {
 }
 @media screen and (max-width: 1400px) {
     .page_title_text {
-        font-size: 28px;
+        font-size: 62px;
     }
 }
 @media screen and (max-width: 1200px) {
     .page_title_text {
-        font-size: 25px;
+        font-size: 60px;
     }
 }
 @media screen and (max-width: 910px) {
     .page_title_text {
-        font-size: 23px;
+        font-size: 54px;
     }
 }
 .bold_text {
