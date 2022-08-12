@@ -267,6 +267,23 @@ body {
 
 
 /* about us & recruitment page */
+.jordanstandard {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+@media screen and (max-width: 700px) {
+    .jordanstandard {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .jordanstandard {
+        width: 80%;
+    }
+}
+
 .paragraph_social_link:link {
     font-weight: bold;
     color: #0560e9;
@@ -350,6 +367,7 @@ body {
     margin: 5px 2px;
     border-radius: 100px;
 }
+
 @media screen and (max-width: 909px) {
     .fa {
         padding-left: 6px;
@@ -365,7 +383,7 @@ body {
 }
 
 .fa-instagram {
-    background: linear-gradient(30deg, #fff200 , #ffd900, #ff0037, #ff00bb, #7700ff, #6600ff);
+    background: linear-gradient(30deg, #fff200, #ffd900, #ff0037, #ff00bb, #7700ff, #6600ff);
     color: white;
 }
 
