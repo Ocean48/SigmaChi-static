@@ -1,8 +1,10 @@
 body {
     margin: 0;
-    background: #fefefe;
+    //background: #fefefe;
+    //color: #222222;
+    background: #000000;
+    color: #fefefe;
     font-family: "Segoe UI Symbol", sans-serif;
-    color: #222222;
 }
 
 /* header */
