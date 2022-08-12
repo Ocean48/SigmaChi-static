@@ -267,19 +267,19 @@ body {
 
 
 /* about us & recruitment page */
-.jordanstandard {
+.image_in_paragraph {
     width: 50%;
     margin: auto;
     display: block;
 }
 
 @media screen and (max-width: 700px) {
-    .jordanstandard {
+    .image_in_paragraph {
         width: 60%;
     }
 }
 @media screen and (max-width: 450px) {
-    .jordanstandard {
+    .image_in_paragraph {
         width: 80%;
     }
 }
