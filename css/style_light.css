@@ -1,9 +1,9 @@
 body {
     margin: 0;
     background: #fefefe;
-    color: 222222;
-    //background: #000000;
-    //color: #fefefe;
+    color: #222222;
+    /* background: #000000;
+    color: #fefefe; */
     font-family: "Segoe UI Symbol", sans-serif;
 }
 
@@ -280,10 +280,16 @@ body {
         width: 60%;
     }
 }
+
 @media screen and (max-width: 450px) {
     .image_in_paragraph {
         width: 80%;
     }
+}
+
+.h3_title {
+    color: #000000;
+    margin: 0;
 }
 
 .paragraph_social_link:link {
@@ -647,6 +653,53 @@ body {
     color: #000000;
 }
 
+.mode_button_holder {
+    margin-top: 160px;
+}
+
+@media screen and (max-width: 910px) {
+    .mode_button_holder {
+        margin-top: 5px;
+        margin-left: 25px;
+    }
+}
+
+.style_mode_l {
+    border-radius: 100px;
+    background-color: #fbfbfb;
+    border: none;
+    color: #000000;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.style_mode_l:hover {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 1px 15px 3px #f3f3f3;
+}
+
+.style_mode_d {
+    border-radius: 100px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.style_mode_d:hover {
+    background-color: #242424;
+    color: #ffffff;
+    box-shadow: 0 1px 15px 3px #3b3b3b;
+}
+
 /* FAQ in recuitment page */
 .slideshow-container2 {
     padding-top: 1%;
@@ -669,6 +722,10 @@ body {
 .faq_card_title {
     color: #000000;
     font-size: 28px;
+}
+
+.faq_card_answer {
+    color: #000000;
 }
 
 .prev2,
