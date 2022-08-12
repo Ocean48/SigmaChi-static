@@ -10,7 +10,7 @@ function header_menu() {
 }
 
 // Get cookie
-var m = document.cookie;
+var m = "css/style_light.css";
 if (document.cookie === "") {
     document.cookie = "css/style_light.css";
     m = document.cookie
