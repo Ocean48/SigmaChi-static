@@ -542,7 +542,7 @@ body {
 .container_footer {
     position: absolute;
     width: 100%;
-    background-color: #444755;
+    background-color: #4b4e5e;
     color: #ffffff;
 }
 
@@ -702,13 +702,12 @@ body {
 }
 
 .social_link {
-    margin-left: 30px;
     color: #fefefe;
     text-decoration: none;
 }
 
 .social_link:hover {
-    color: #ff2f2f;
+    color: #d6d6d6;
 }
 
 .fa_footer {
