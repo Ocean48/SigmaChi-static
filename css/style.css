@@ -883,3 +883,23 @@ body {
 .next2:hover {
     opacity: 0.5;
 }
+
+/* Donate page */
+.youtube_video {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 35vw;
+}
+
+@media screen and (max-width: 900px) {
+    .youtube_video {
+        height: 40vw;
+    }
+}
+@media screen and (max-width: 450px) {
+    .youtube_video {
+        width: 96%;
+        height: 50vw;
+    }
+}
