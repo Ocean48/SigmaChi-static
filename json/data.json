@@ -1,0 +1,34 @@
+{
+    "people": [
+        {
+            "name": "John Doe",
+            "position": "p1",
+            "image": "profile.png"
+        },
+        {
+            "name": "John Doe",
+            "position": "p2",
+            "image": "profile.png"
+        },
+        {
+            "name": "John Doe",
+            "position": "p2",
+            "image": "profile.png"
+        },
+        {
+            "name": "John Doe",
+            "position": "p2",
+            "image": "profile.png"
+        },
+        {
+            "name": "John Doe",
+            "position": "p2",
+            "image": "profile.png"
+        },
+        {
+            "name": "John Doe",
+            "position": "p2",
+            "image": "profile.png"
+        }
+    ]
+}
