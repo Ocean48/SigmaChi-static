@@ -188,24 +188,34 @@ body {
 
 /* homme page image slide */
 .slideshow-container {
-    /* width: 45%;
-    margin-top: 10px;
-    margin-left: 2%;
-    position: relative; */
     padding-top: 1%;
-    width: 65%;
+    width: 35%;
     position: relative;
     margin: auto;
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 1200px) {
     .slideshow-container {
-        object-fit: cover;
-        padding-top: 1%;
-        width: 90%;
-        position: relative;
-        margin-left: 5%;
+        width: 40%;
+    }
+}
 
+
+@media screen and (max-width: 1000px) {
+    .slideshow-container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .slideshow-container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .slideshow-container {
+        width: 90%;
     }
 }
 
@@ -342,16 +352,19 @@ body {
     margin: auto;
     width: 30%;
 }
+
 @media screen and (max-width: 960px) {
     .rush_events_img {
         width: 40%;
     }
 }
+
 @media screen and (max-width: 600px) {
     .rush_events_img {
         width: 60%;
     }
 }
+
 @media screen and (max-width: 450px) {
     .rush_events_img {
         width: 90%;
@@ -918,6 +931,7 @@ body {
         height: 40vw;
     }
 }
+
 @media screen and (max-width: 450px) {
     .youtube_video {
         width: 96%;
