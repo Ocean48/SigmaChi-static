@@ -1,0 +1,6 @@
+https://kappamu.netlify.app/index.html
+https://kappamu.netlify.app/about_us.html
+https://kappamu.netlify.app/people.html
+https://kappamu.netlify.app/recruitment.html
+https://kappamu.netlify.app/contact.html
+https://kappamu.netlify.app/donate.html
