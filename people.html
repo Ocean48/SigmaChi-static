@@ -74,7 +74,7 @@
         <!-- js to read people's data from data.json from json folder -->
         <script>
             let list = "";
-            fetch('json/data.json')
+            fetch('json/people_data.json')
                 .then((response) => response.json())
                 .then((data) => {
                     data.people.forEach(element => {
