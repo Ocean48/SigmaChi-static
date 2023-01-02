@@ -350,26 +350,21 @@ body {
 .rush_events_img {
     display: block;
     margin: auto;
-    width: 30%;
+    width: 50%;
 }
 
 @media screen and (max-width: 960px) {
     .rush_events_img {
-        width: 40%;
+        width: 70%;
     }
 }
 
 @media screen and (max-width: 600px) {
     .rush_events_img {
-        width: 60%;
+        width: 95%;
     }
 }
 
-@media screen and (max-width: 450px) {
-    .rush_events_img {
-        width: 90%;
-    }
-}
 
 
 /* contact page */
