@@ -29,6 +29,11 @@
             "name": "John Doe",
             "position": "p6",
             "image": "profile.png"
+        },
+        {
+            "name": "John Doe",
+            "position": "p6",
+            "image": "profile.png"
         }
     ]
 }
