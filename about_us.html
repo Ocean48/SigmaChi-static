@@ -12,7 +12,7 @@
     <meta name="author" content="SiChao Chen">
     <link rel="icon" type="image/x-icon" href="images/kappamu.png">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link id="page_style" rel="stylesheet" href="css/style_light.css" type="text/css">
+    <!--<link id="page_style" rel="stylesheet" href="css/style_light.css" type="text/css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="robots" content="all"/>
     <meta name="msvalidate.01" content="C575C876BD4A90A51FFE4FB407530C46" />
@@ -29,9 +29,14 @@
 
     <header>
         <div class="topnav" id="myTopnav">
-            <a href="index.html"><img src="images/Sigma_Chi_Crest.png" alt="logo" class="logo"></a>
-            <a href="index.html" class="htext">Home</a>
+            <img src="images/the_cross.png" alt="logo"
+                style="margin: auto; display: block; margin-top: 15px; margin-bottom: -15px;">
+            <!-- <a href="index.html"><img src="images/Sigma_Chi_Crest.png" alt="logo" class="logo"></a> -->
+            <a href="index.html" id="htext2" class="htext">Home</a>
+            <a href="index.html" class="htext">What's New</a>
             <a href="recruitment.html" class="htext">Recruitment</a>
+            <a href="" class="htext" id="space">&nbsp;</a>
+            <!-- <a href=""><img src="images/the_cross.png" alt=""></a> -->
             <!-- <div class="dropdown">
                 <button class="dropbtn">About
                     <i class="fa fa-caret-down"></i>
@@ -46,15 +51,16 @@
             <a href="about_us.html" class="htext">About</a>
             <a href="contact.html" class="htext">Contact</a>
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="header_menu()">&#9776;</a>
-            <div class="mode_button_holder">
+            <!-- <div class="mode_button_holder">
                 <button id="light_mode" class="style_mode_l" onclick="mode_change_light()">Light Mode</button>
                 <button id="dark_mode" class="style_mode_d" onclick="mode_change_dark()">Dark Mode</button>
-            </div>
+            </div> -->
 
         </div>
         <script src="js/script.js"></script>
 
     </header>
+
     <div class="page_title_container">
         <h1 class="page_title_text">About Us</h1>
     </div>
