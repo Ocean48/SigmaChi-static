@@ -50,7 +50,7 @@ body {
 }
 
 #space {
-    width: 5%;
+    width: 3%;
 }
 
 @media screen and (max-width: 1993px) {
@@ -92,12 +92,11 @@ body {
     .topnav a {
         padding: 0 1.7%;
     }
-}
-@media screen and (max-width: 1216px) {
-    .topnav a {
-        padding: 0 1.6%;
+    .topnav #space {
+        width: 3%;
     }
 }
+
 @media screen and (max-width: 1155px) {
     .topnav a {
         padding: 0 1.5%;
@@ -106,6 +105,9 @@ body {
 @media screen and (max-width: 1134px) {
     .topnav a {
         padding: 0 1.4%;
+    }
+    .topnav #space {
+        width: 4%;
     }
 }
 @media screen and (max-width: 1104px) {
@@ -122,15 +124,24 @@ body {
     .topnav a {
         padding: 0 0.95%;
     }
+    .topnav #space {
+        width: 4.5%;
+    }
 }
 @media screen and (max-width: 1028px) {
     .topnav a {
         padding: 0 0.85%;
     }
+    .topnav #space {
+        width: 4.8%;
+    }
 }
 @media screen and (max-width: 1012px) {
     .topnav a {
         padding: 0 0.7%;
+    }
+    .topnav #space {
+        width: 5%;
     }
 }
 @media screen and (max-width: 986px) {
